@@ -139,7 +139,7 @@ func main() {
 		panic(err)
 	}
 
-	img, err := os.Create("/Users/trevorstarick/output.png")
+	img, err := os.Create("output.png")
 	if err != nil {
 		panic(err)
 	}
